@@ -42,7 +42,7 @@ const Editor = () => {
     }, []);
 
     useEffect(() => {
-        const socketServer = io('https://backend-docs-yxrr.onrender.com');
+        const socketServer = io('https://vercel.com/girraj-singhals-projects/backend-docs-pwms');
 
         socketServer.on('connect', () => {
             console.log('Socket connected successfully');
