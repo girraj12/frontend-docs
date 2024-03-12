@@ -42,7 +42,7 @@ const Editor = () => {
     }, []);
 
     useEffect(() => {
-        const socketServer = io('https://backend-docs-eta.vercel.app/');
+        const socketServer = io('https://backend-docs-yxrr.onrender.com');
 
         socketServer.on('connect', () => {
             console.log('Socket connected successfully');
